@@ -43,6 +43,9 @@ eightBtn.addEventListener("click",function(){
 nineBtn.addEventListener("click",function(){
     inputBox.value+=9;
 })
+zeroBtn.addEventListener("click",function(){
+    inputBox.value+=0;
+})
 plusBtn.addEventListener("click",function(){
     inputBox.value+="+";
 })
